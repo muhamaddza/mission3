@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  body {
+    background-image: url("/assets/background.jpg");
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .text-noaccount {
+    color: #a1a1a1;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .signin {
+    /* background-color: aqua; */
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 2em;
+    border-radius: 8px;
+    border: 1px solid #a1a1a1;
+    background-color: rgba(24, 26, 28, 0.84);
+  }
+  
+  .signin > img {
+    width: 40%;
+  }
+  
+  .text-brand {
+    /* background-color: violet; */
+    width: 100%;
+    text-align: center;
+  }
+  
+  .text-brand > h1 {
+    font-weight: normal;
+    font-size: 1.7em;
+  }
+  
+  .text-brand > div {
+    font-size: 0.9em;
+    font-weight: 300;
+    padding: 8px 4px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    width: 100%;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+    width: 100%;
+    gap: 8px;
+  }
+  
+  .form-group > label {
+    font-weight: 400;
+  }
+  
+  .form-control {
+    padding: 0.8rem 0.8rem;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  .text-info {
+    display: flex;
+    /* background-color: yellow; */
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .actions {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+  
+  .actions > button {
+    padding: 12px 0;
+    border: none;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 32px;
+  }
+  
+  .actions > div {
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  .btn-signin {
+    background-color: #2e2e2e;
+    color: #fff;
+    border: 1px solid #3a3a3a !important;
+  }
+  
+  .btn-signin-google {
+    background-color: transparent;
+    border: 1px solid #ffffff !important;
+    color: #fff;
+  }
+  
+  @media (max-width: 767px) {
+    .signin {
+      width: 100%;
+      margin: 0 2rem;
+      padding: 24px 24px;
+    }
+  
+    .text-brand > h1 {
+      font-weight: normal;
+      font-size: 1rem;
+    }
+  
+    .text-brand > div {
+      font-size: 0.7em;
+      font-weight: 300;
+    }
+  }
+  
